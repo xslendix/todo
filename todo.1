@@ -1,0 +1,28 @@
+.\" Manpage for passmgr.
+.TH man 8 "24/08/2020" "1.0" "todo man page"
+.SH NAME
+todo - A lightweight TODO application.
+.SH SYNOPSIS
+todo [action] {options}
+.\" .SH DESCRIPTION
+.\"todo is a very lightweight TODO application
+.SH OPTIONS
+.IP "--help, -h"
+Shows a help page.
+.IP "--init, -i"
+Initializes the database in the configuration folder.
+.IP "--add, -a [string]"
+Adds an item to the database.
+.IP "--remove, -r [index]"
+Removes an item from the database.
+.IP "--search, -s [keyword]"
+Searches the database for an entry and prints the results found.
+.IP "--list, -l"
+Dumps all todo list items to stdout.
+.SH "DANGEROUS OPTIONS"
+.IP "--clean, -c"
+Deletes the database. Needs to be manually re-initialized.
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Radu Ungureanu (radu.ungureanu@techie.com)
